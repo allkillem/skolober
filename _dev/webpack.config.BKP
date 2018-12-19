@@ -35,11 +35,14 @@ module.exports = [{
   // JavaScript
   entry: [
     './js/theme.js',
+    './css/normalize.css',
+    './css/example.less',
+    './css/st/dev.styl',
+    './css/theme.scss'
   ],
   output: {
     path: '../assets/js',
     filename: 'theme.js'
-    filename: 'bootstrap.js'
   },
   module: {
     loaders:  [{
@@ -76,8 +79,7 @@ module.exports = [{
     }]
   },
   externals: {
-    prestashop: 'prestashop',
-    jquery: 'jQuery'
+    prestashop: 'prestashop'
   },
   plugins: plugins,
   resolve: {
