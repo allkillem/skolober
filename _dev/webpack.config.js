@@ -35,6 +35,11 @@ module.exports = [{
   // JavaScript
   entry: [
     './js/theme.js',
+    './css/normalize.css',
+    './css/example.less',
+    './css/st/dev.styl',
+    './css/theme.scss'
+    './css/bootstrap.min.css'
   ],
   output: {
     path: '../assets/js',
@@ -76,8 +81,7 @@ module.exports = [{
     }]
   },
   externals: {
-    prestashop: 'prestashop',
-    jquery: 'jQuery'
+    prestashop: 'prestashop'
   },
   plugins: plugins,
   resolve: {

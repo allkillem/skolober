@@ -1,5 +1,5 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'watch' ]
+1 verbose cli [ '/usr/bin/node', '/usr/local/bin/npm', 'run', 'watch' ]
 2 info using npm@3.5.2
 3 info using node@v8.10.0
 4 verbose run-script [ 'prewatch', 'watch', 'postwatch' ]
@@ -25,7 +25,7 @@
 15 verbose pkgid new-theme@1.0.0
 16 verbose cwd /home/kea/www/test-kuzulpresta/themes/skolober/_dev
 17 error Linux 4.15.0-42-generic
-18 error argv "/usr/bin/node" "/usr/bin/npm" "run" "watch"
+18 error argv "/usr/bin/node" "/usr/local/bin/npm" "run" "watch"
 19 error node v8.10.0
 20 error npm  v3.5.2
 21 error code ELIFECYCLE

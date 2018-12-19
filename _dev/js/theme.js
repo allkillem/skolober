@@ -4,8 +4,8 @@
 
 /** ajout bootstrap **/
 
-require('bootstrap');
-require('../css/theme.scss');
+/**require('bootstrap');
+#require('../css/theme.scss');
 
 $(function () {
     // DOM READY

@@ -1,7 +1,12 @@
+@import 'couleurs';
+@import 'mixins';
+@import 'normalize';
+@import 'bootstrap.min';
+
 $body-background-color: #fefefe;
 
 body {
   background: $body-background-color;
 }
 
-p {color:red;}
+p {color:$mauve;}
